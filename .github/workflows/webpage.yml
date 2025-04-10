@@ -89,9 +89,6 @@ jobs:
           fi
 
           # 使用指定文件夹
-          ls -la "temp_repo/website/versioned_docs"
-          ls -la "temp_repo/${DIR}"
-          echo "---"
           if [ -d "temp_repo/${DIR}" ]; then
             echo "with docs folder: temp_repo/${DIR}"
             # find temp_repo/* -maxdepth 0 -name docs -prune -o -exec rm -rf {} \;
