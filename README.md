@@ -1,0 +1,1 @@
+# obsidian_vault_template_for_graduate_student
